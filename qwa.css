@@ -1,0 +1,27 @@
+body{
+    font-size: 200%;
+    background-color: rgb(231, 255, 233);
+}
+.panel {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    padding: 5px;
+    background-color: rgb(153, 238, 160);
+}
+.panel li a{
+    text-decoration:none;
+}
+.panel li {
+    display: inline;
+    margin: 1%;
+    
+}
+hr{
+    margin: 0px;
+    padding: 0px;
+}
+.onas-div1,.privetstvie{
+    text-align: center;
+}

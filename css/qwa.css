@@ -1,0 +1,51 @@
+@font-face {
+	font-family: 'Russo One', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+}
+body{
+    font-size: 180%;
+    background-color: rgba(185, 218, 255, 0.89);
+    font-family: 'Russo One', sans-serif;
+    margin: 1% 0px 0px 0px;
+    padding: 0;
+}
+.privetstvie,.privetstvie h1, h2{
+    text-align: center;
+    color: rgb(46, 147, 187);
+    margin: 15%;
+    -webkit-text-stroke: rgb(41, 124, 156) px;
+    font-style: italic;
+}
+.index,.onas{
+    background: url(../pic/fon/1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.novosty{
+    background: url(../pic/fon/1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+}
+.panel{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    padding: 5px;
+    <!--background-color: rgb(115, 207, 243);-->
+}
+.panel li a{
+    text-decoration:none;
+    color: white;
+    font-style: italic;
+}
+.panel li, .panel t{
+    display: inline;
+    margin: 1%;
+}
+.div-novosty{
+    width: 70%;
+    margin: 2% 0 20% 10%;
+}

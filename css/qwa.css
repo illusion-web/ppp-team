@@ -16,14 +16,14 @@ body{
     -webkit-text-stroke: rgb(41, 124, 156) px;
     font-style: italic;
 }
-.index,.onas{
-    background: url(../pic/fon/1.jpg);
+.index,.about{
+    background: url(../img/background/1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
 }
-.novosty{
-    background: url(../pic/fon/1.jpg);
+.news{
+    background: url(../img/background/1.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: 100% 100%;
@@ -45,7 +45,7 @@ body{
     display: inline;
     margin: 1%;
 }
-.div-novosty{
+.div-news{
     width: 70%;
     margin: 2% 0 20% 10%;
 }
